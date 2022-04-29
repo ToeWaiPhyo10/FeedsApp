@@ -10,6 +10,7 @@ export default function Routess() {
       <Route path="/" element={<GlobalFeed />} exact="true" />
       <Route path="/articles/:slug" element={<Article />} />
       <Route path="/login" element={<Authentication />} />
+      <Route path="/register" element={<Authentication />} />
     </Routes>
   );
 }
